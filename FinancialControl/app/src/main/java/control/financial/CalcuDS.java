@@ -34,8 +34,11 @@ public class CalcuDS extends AppCompatActivity {
                 v2 = Double.parseDouble(TaxaDS.getText().toString());
                 v3 = Double.parseDouble(TempoDS.getText().toString());
                 res = v1 *v2/100 *v3;
+                if(res > v1){
+                    ResultadoDS.setText("Desconto maior que valor inicial");
+                }else{
                 ResultadoDS.setText("Valor do Desconto : R$"+res.toString());
-            }
+            }}
         });
     }
 }

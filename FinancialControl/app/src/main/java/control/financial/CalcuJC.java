@@ -37,12 +37,16 @@ public class CalcuJC extends AppCompatActivity {
                 capital = Double.parseDouble(CapitalJC.getText().toString());
                 taxa = Double.parseDouble(TaxaJC.getText().toString());
                 mes = Double.parseDouble(TempoJC.getText().toString());
+
+
                 taxa = taxa/100;
+
                 montante = capital *(1+taxa);
 
                 for (int i = 1; i <= mes ; ++ i){
+                    a += "Mês " + i + " : " + "R$" + String.format("%.2f", montante) + "\n";
                     montante +=(montante * taxa);
-                    a += "Mês " + i + " : "+ montante + "\n";
+
                 }
 
                 ResultadoJC.setText(a);
