@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/btJurosSimples"
+        android:layout_width="255dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/txtjuros_simples"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btJurosComposto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <Button
+        android:id="@+id/btJurosComposto"
+        android:layout_width="284dp"
+        android:layout_height="91dp"
+        android:text="@string/juros_composto"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <Button
+        android:id="@+id/btDescontoSimples"
+        android:layout_width="304dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/desconto_simples"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btJurosComposto"
+        app:layout_constraintVertical_bias="0.368" />
+</androidx.constraintlayout.widget.ConstraintLayout>

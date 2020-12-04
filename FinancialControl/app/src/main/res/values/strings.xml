@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FinancialControl</string>
+    <string name="controle_financeiro">Controle Financeiro</string>
+    <string name="bem_vindo">Bem Vindo</string>
+    <string name="juros_simples">Juros Simples</string>
+    <string name="capital">Capital:</string>
+    <string name="taxa_de_juros">Taxa de juros:</string>
+    <string name="tempo">Tempo:</string>
+    <string name="calcular">Calcular</string>
+    <string name="juros_composto">Juros Composto</string>
+    <string name="desconto_simples">Desconto Simples</string>
+    <string name="txtjuros_simples">Juros Simples</string>
+    <string name="juros_compostoJC">Juros Composto</string>
+    <string name="capitalJC">Capital:</string>
+    <string name="tempoJC">Tempo:</string>
+    <string name="taxa_de_jurosJC">Taxa de Juros:</string>
+    <string name="resultadoJC">Resultado :</string>
+    <string name="calcularJC">Calcular</string>
+    <string name="desconto_simpletxt">Desconto Simple</string>
+    <string name="valor_nominal">Valor Nominal:</string>
+    <string name="taxa_de_descontoDS">Taxa de Desconto:</string>
+    <string name="tempoDS">Tempo:</string>
+    <string name="calcularDS">Calcular</string>
+    <string name="desconto">Desconto :</string>
+    <string name="juros">Juros :</string>
+    <string name="saldo">Saldo :</string>
+</resources>
